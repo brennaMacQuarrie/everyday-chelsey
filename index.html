@@ -8,14 +8,12 @@
 
     <link rel="stylesheet" href="./styles.css">
 
-    <script src="https://kit.fontawesome.com/4fba6b96fc.js" crossorigin="anonymous"></script>
 </head>
     <body>
         <div class="logo">
-
-            <div class="ui large circular image fade reveal">
-                <img src="./EverydayChelseyLogoOrange2jpeg.jpeg" class="visible content">
-                <img src="./IMG_5536.jpeg" class="hidden content">
+            <div class="ui circular image fade reveal">
+                <img src="./assets/EverydayChelseyLogoOrange2jpeg.jpeg" class="visible content">
+                <img src="./assets/charlieface_squ.jpg" class="hidden content">
             </div>
 
 <div class="ui horizontal divider">your social media compass</div>
@@ -27,5 +25,16 @@
             </div>
         </div>
 
+
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/semantic.min.js"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.icon').hover(function () {
+                    $(this).transition('pulse');
+                }, function () { });
+            });
+        </script>
     </body>
 </html>
